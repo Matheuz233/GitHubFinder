@@ -3,6 +3,7 @@ import { UserProps } from "../types/User";
 import { useState } from "react";
 
 import Search from "../components/Search";
+import User from "../components/User";
 
 const Home = () => {
   const [user, setUser] = useState<UserProps | null>(null); // User inicia como UserProps ou Null
@@ -28,7 +29,7 @@ const Home = () => {
   return (
     <div>
       <Search loadUser={loadUser} />
-      {user && <p>{user.login}</p>} 
+      {user && <User {...user} />}
     </div>
   );
 };

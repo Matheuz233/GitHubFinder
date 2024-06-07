@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# GitHubFinder 🔍
 
-Currently, two official plugins are available:
+O GitHubFinder é um projeto que desenvolvi acompanhando o curso do Hora de Codar do Matheus Battisti para treinar o desenvolvimento de ReactJS utilizando TypeScript, que é a linguagem de programação que estou estudando. O projeto consiste em um sistema web que localiza o perfil de um usuário através de uma ferramenta de busca e exibe as informações do perfil em questão.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Demonstração 🌐
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Para acessar o projeto, clique no link abaixo:
 
-- Configure the top-level `parserOptions` property like this:
+## Instalação 💻
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+A instalação do projeto pode ser feita da seguinte forma:
+
+1. Clone o repositório
+
+```bash
+git clone https://github.com/Matheuz233/GitHubFinder.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Acesse o diretório do projeto
+
+```bash
+cd ./GitHubFinder
+```
+
+3. Instale as dependências do projeto
+
+```bash
+npm install
+```
+
+4. Execute o projeto
+
+```bash
+npm run dev
+```
+
+## Feedback 📫
+
+Se você tiver algum feedback, sinta-se à vontade para entrar em contato pelo meu email: augustomatheus233@gmail.com.
